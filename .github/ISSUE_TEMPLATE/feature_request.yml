@@ -1,0 +1,11 @@
+name: Feature Request
+description: Suggest a Screen Studio parity feature or improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Feature Description
+      description: What workflow does this unlock?
+    validations:
+      required: true

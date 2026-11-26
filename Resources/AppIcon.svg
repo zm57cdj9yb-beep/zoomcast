@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="52%" stop-color="#312E81"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="rec" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB7185"/>
+      <stop offset="100%" stop-color="#E11D48"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="205" fill="url(#bg)"/>
+  <rect x="64" y="64" width="896" height="896" rx="205" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="10"/>
+  <!-- Framing brackets -->
+  <path d="M220 340 L220 245 Q220 220 245 220 L340 220" fill="none" stroke="#E0E7FF" stroke-opacity="0.72" stroke-width="26" stroke-linecap="round"/>
+  <path d="M804 340 L804 245 Q804 220 779 220 L684 220" fill="none" stroke="#E0E7FF" stroke-opacity="0.72" stroke-width="26" stroke-linecap="round"/>
+  <path d="M220 684 L220 779 Q220 804 245 804 L340 804" fill="none" stroke="#E0E7FF" stroke-opacity="0.72" stroke-width="26" stroke-linecap="round"/>
+  <path d="M804 684 L804 779 Q804 804 779 804 L684 804" fill="none" stroke="#E0E7FF" stroke-opacity="0.72" stroke-width="26" stroke-linecap="round"/>
+  <!-- Outer zoom ring -->
+  <circle cx="512" cy="512" r="205" fill="#0B1120" fill-opacity="0.72" stroke="url(#lens)" stroke-width="28"/>
+  <!-- Inner aperture + record dot -->
+  <circle cx="512" cy="512" r="108" fill="url(#rec)"/>
+  <circle cx="476" cy="472" r="26" fill="#FFFFFF" fill-opacity="0.32"/>
+</svg>
